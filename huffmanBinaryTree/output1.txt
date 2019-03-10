@@ -1,0 +1,19 @@
+***Below is the ordered linked list***
+listHead-->(Dummy, 0, d)-->(d, 2, null)-->Null
+listHead-->(Dummy, 0, f)-->(f, 2, d)-->(d, 2, null)-->Null
+listHead-->(Dummy, 0, f)-->(f, 2, d)-->(d, 2, g)-->(g, 5, null)-->Null
+listHead-->(Dummy, 0, f)-->(f, 2, d)-->(d, 2, g)-->(g, 5, h)-->(h, 12, null)-->Null
+listHead-->(Dummy, 0, f)-->(f, 2, d)-->(d, 2, g)-->(g, 5, k)-->(k, 10, h)-->(h, 12, null)-->Null
+listHead-->(Dummy, 0, f)-->(f, 2, d)-->(d, 2, g)-->(g, 5, k)-->(k, 10, h)-->(h, 12, m)-->(m, 45, null)-->Null
+listHead-->(Dummy, 0, f)-->(f, 2, d)-->(d, 2, g)-->(g, 5, k)-->(k, 10, h)-->(h, 12, p)-->(p, 18, m)-->(m, 45, null)-->Null
+listHead-->(Dummy, 0, f)-->(f, 2, d)-->(d, 2, w)-->(w, 3, g)-->(g, 5, k)-->(k, 10, h)-->(h, 12, p)-->(p, 18, m)-->(m, 45, null)-->Null
+listHead-->(Dummy, 0, f)-->(f, 2, d)-->(d, 2, a)-->(a, 3, w)-->(w, 3, g)-->(g, 5, k)-->(k, 10, h)-->(h, 12, p)-->(p, 18, m)-->(m, 45, null)-->Null
+***below is the tree***
+listHead-->(a, 3, w)-->(w, 3, fd)-->(fd, 4, g)-->(g, 5, k)-->(k, 10, h)-->(h, 12, p)-->(p, 18, m)-->(m, 45, null)-->Null
+listHead-->(fd, 4, g)-->(g, 5, aw)-->(aw, 6, k)-->(k, 10, h)-->(h, 12, p)-->(p, 18, m)-->(m, 45, null)-->Null
+listHead-->(aw, 6, fdg)-->(fdg, 9, k)-->(k, 10, h)-->(h, 12, p)-->(p, 18, m)-->(m, 45, null)-->Null
+listHead-->(k, 10, h)-->(h, 12, awfdg)-->(awfdg, 15, p)-->(p, 18, m)-->(m, 45, null)-->Null
+listHead-->(awfdg, 15, p)-->(p, 18, kh)-->(kh, 22, m)-->(m, 45, null)-->Null
+listHead-->(kh, 22, awfdgp)-->(awfdgp, 33, m)-->(m, 45, null)-->Null
+listHead-->(m, 45, khawfdgp)-->(khawfdgp, 55, null)-->Null
+listHead-->(mkhawfdgp, 100, null)-->Null
